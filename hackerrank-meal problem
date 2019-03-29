@@ -1,4 +1,3 @@
-#!/bin/python3
 import math
 import os
 import random
@@ -14,11 +13,10 @@ def solve(meal_cost, tip_percent, tax_percent):
 
 
 if __name__ == '__main__':
-    meal_cost = float(input())
+    meal_cost = float(input("Enter Meal_Cost: " ))
 
-    tip_percent = int(input())
+    tip_percent = int(input("Enter Tip_percentage in Integer: "))
 
-    tax_percent = int(input())
+    tax_percent = int(input("Enter Tax_percentage in Integer: "))
 
     print(solve(meal_cost, tip_percent, tax_percent))
-    # print(solve())
